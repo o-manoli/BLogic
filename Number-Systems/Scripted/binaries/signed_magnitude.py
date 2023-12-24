@@ -9,7 +9,7 @@
 
 from typing import Callable
 
-from binary import to_binary, fixed, loop as main
+from to_binary import to_binary, fixed, loop as main
 
 def parser(WIDTH: int) -> Callable[[str], int]:
    def parsed(s:str, offset:int = 2**(WIDTH-1)) -> int:

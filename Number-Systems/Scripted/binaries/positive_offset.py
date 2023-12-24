@@ -5,7 +5,7 @@
 
 from typing import Callable
 
-from binary import to_binary, fixed, integer_feeder, loop
+from to_binary import to_binary, fixed, integer_feeder, loop
 
 def offset(WIDTH:int) -> Callable[[int], str]:
    def callback(

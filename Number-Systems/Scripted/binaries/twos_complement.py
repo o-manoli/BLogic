@@ -5,7 +5,7 @@
 
 from typing import Callable
 
-from binary import to_binary, fixed, integer_feeder, loop as main
+from to_binary import to_binary, fixed, integer_feeder, loop as main
 
 def complement(WIDTH:int) -> Callable[[int], str]:
    def callback(
