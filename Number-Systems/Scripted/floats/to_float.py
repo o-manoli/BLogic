@@ -76,7 +76,7 @@ def to_base(
 
 
 def left_overflow(base:int, r:str) -> tuple[int, str]:
-   n = f"{base*int(r):0>{len(r)+1}}" # initlize carry over bit,
+   n = f"{base*int(r):0>{len(r)+1}}" # initialize carry over bit,
    digits = len(n) - len(r)
    return int(n[:digits]), n[digits:]
 
