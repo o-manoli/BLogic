@@ -16,7 +16,7 @@
 """
 
 
-from to_rational import convert_rational
+from .to_rational import convert_rational
 
 # - - - - - - - - - - - - - - - - - - - - - - - -
 ############################
